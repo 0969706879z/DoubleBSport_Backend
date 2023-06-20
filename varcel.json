@@ -3,14 +3,14 @@
     "name": "DoubleBSport",
     "builds": [
         {
-            "src": "server.js",
+            "src": "Server.js",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "server.js",
+            "dest": "Server.js",
             "headers": {
                 "Access-Control-Allow-Origin": "*"
             }
